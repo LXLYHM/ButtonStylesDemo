@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- 自定义Button -->
+    <style name="AppTheme.btnStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <!-- 正常的按钮 -->
+    <style name="AppTheme.btnStyle.Normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/btn_normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 正常的按钮圆角 -->
+    <style name="AppTheme.btnStyle.Normal.Round">
+        <item name="android:background">@drawable/btn_normal_round</item>
+    </style>
+
+    <!-- 正常的按钮圆角 白底 主色边框-->
+    <style name="AppTheme.btnStyle.Normal.RoundStork">
+        <item name="android:background">@drawable/btn_round_green</item>
+    </style>
+
+    <!-- 正常的按钮圆角 25角度-->
+    <style name="AppTheme.btnStyle.Normal.RoundAll">
+        <item name="android:background">@drawable/btn_normal_round_all</item>
+    </style>
+
+    <!-- 正常白底  主色边框/字 按钮 -->
+    <style name="AppTheme.btnStyle.Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/btn_normal_green</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 正常白底  主色边框/字 半圆角按钮 -->
+    <style name="AppTheme.btnStyle.RoundPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/btn_round_green</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 正常白底  主色边框/字圆角按钮 -->
+    <style name="AppTheme.btnStyle.RoundPrimaryAll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/btn_round_green_all</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 主色框/字 虚线按钮 -->
+    <style name="AppTheme.btnStyle.Normal.GreenDotted.Normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/btn_dotted_normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 主色框/字 虚线按钮 -->
+    <style name="AppTheme.btnStyle.Normal.GreenDotted">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/btn_dotted_white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 主色框/字 虚线全圆按钮 -->
+    <style name="AppTheme.btnStyle.Normal.GreenDottedRound">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/btn_dotted_round_white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

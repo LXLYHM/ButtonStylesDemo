@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/AppTheme.btnStyle.Primary"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="边框按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.RoundPrimary"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="边框按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.RoundPrimaryAll"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="边框按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlData"
+        android:layout_marginTop="10dp"
+        android:text="正常按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal.Round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlData"
+        android:layout_marginTop="10dp"
+        android:text="背景色按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal.RoundAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="圆框按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal.GreenDotted.Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="虚线按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal.GreenDotted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="虚线按钮" />
+
+    <Button
+        style="@style/AppTheme.btnStyle.Normal.GreenDottedRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="虚线按钮" />
+
+</LinearLayout>
