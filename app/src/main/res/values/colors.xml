@@ -6,11 +6,8 @@
     <color name="btn_color_white_pressed">#e5e5e5</color>
     <color name="btn_color_white_disable">#CCCCCC</color>
 
-    <!--重庆-->
     <color name="colorPrimary">#39a9ff</color>
     <color name="colorPrimaryDark">#3998ff</color>
-    <!--洛阳-->
-    <color name="colorPrimaryLY">#145394</color>
 
     <!-- 透明背景颜色 -->
     <color name="translucent">#00000000</color>
