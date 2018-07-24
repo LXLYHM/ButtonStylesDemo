@@ -8,37 +8,45 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
-    <Button
-        style="@style/AppTheme.btnStyle.Primary"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:text="边框按钮" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
 
-    <Button
-        style="@style/AppTheme.btnStyle.RoundPrimary"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_marginTop="10dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:text="边框按钮" />
+        <Button
+            android:id="@+id/button1"
+            style="@style/AppTheme.btnStyle.Primary"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="边框按钮" />
 
-    <Button
-        style="@style/AppTheme.btnStyle.RoundPrimaryAll"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:text="边框按钮" />
+        <Button
+            style="@style/AppTheme.btnStyle.RoundPrimary"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="边框按钮" />
+
+        <Button
+            style="@style/AppTheme.btnStyle.RoundPrimaryAll"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="边框按钮" />
+
+    </RelativeLayout>
 
     <Button
         style="@style/AppTheme.btnStyle.Normal"
@@ -83,5 +91,71 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="虚线按钮" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerView"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_normal_darktop"
+            android:text="关闭"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_normal_primarytop"
+            android:text="立即升级"
+            android:textColor="@color/colorBar"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerView"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_normal_dark"
+            android:text="关闭"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_normal_primary"
+            android:text="立即升级"
+            android:textColor="@color/colorBar"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    </LinearLayout>
 
 </LinearLayout>
